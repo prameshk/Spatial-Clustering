@@ -1,5 +1,5 @@
 # Spatial-Clustering
-There are two scripts in this repository which uses two different types of clustering.
+There are two scripts in this repository which uses two different types of clustering.<br />
 I. Greedy_Clustering <br />
 This R script is used for spatial clustering using Greedy Algorithm. Follwing are the steps.
 1. Install and setup postgreSQL server for U-Pass Data
@@ -24,5 +24,11 @@ II. DBSCAN_Clustering <br />
 options(stringsAsFactors = FALSE)<br />
 fileList <- list.files(path="directory where data is located", pattern=".csv")<br />
 cl_data <- do.call(rbind,lapply(fileList,read.csv))<br />
-
-
+2. Install following packages <br />
+install.packages('shiny')<br />
+install.packages('dplyr')<br />
+install.packages('leaflet')<br />
+install.packages('dbscan')<br />
+install.packages('fpc')<br />
+3. Select value of n,epsilon for the clustering, semester and time range for the clustering.
+4. This script runs DBSCAN in background. Please do not select the high range of time for this tyoe of clustering
