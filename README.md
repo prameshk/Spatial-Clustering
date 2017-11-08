@@ -4,8 +4,8 @@ There are two scripts in this repository which uses two different types of clust
 This R script is used for spatial clustering using Greedy Algorithm. Follwing are the steps.
 1. Install and setup postgreSQL server for U-Pass Data
 2. Set your working directory to the location where script is located using following command 
-setwd('mylocation')
-3. Install various packages
+setwd('mylocation')<br />
+3. Install various packages<br />
 install.packages('shiny')
 install.packages('data.table')
 install.packages('leaflet')
