@@ -30,8 +30,10 @@ install.packages('dplyr')<br />
 install.packages('leaflet')<br />
 install.packages('dbscan')<br />
 install.packages('fpc')<br />
+Run the script "shiny_app.R"
 3. Select value of n,epsilon for the clustering, semester and time range for the clustering.
 4. This script runs DBSCAN in background. Please do not select the high range of time for this tyoe of clustering
+
 
 
 Feel free to email kumar372@umn.edu in case of questions.
