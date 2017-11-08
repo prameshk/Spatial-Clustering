@@ -11,7 +11,7 @@ install.packages('data.table')
 install.packages('leaflet')
 install.packages('RPostgreSQL')
 4. Make an R file named "keys.R" with folowing information about the PostgreSQL server
-# keys.R
+keys.R
 db <- ""
 id <- ""
 pw <- ""
