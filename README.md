@@ -20,4 +20,9 @@ host = ""<br />
 5. Run the script <br />
 
 II. DBSCAN_Clustering <br />
-1
+1. This script requires processed data. This data contains csv files for different semesters. Please run the following command to create a dataframe named "cl_data" <br />
+options(stringsAsFactors = FALSE)<br />
+fileList <- list.files(path="directory where data is located", pattern=".csv")<br />
+cl_data <- do.call(rbind,lapply(fileList,read.csv))<br />
+
+
